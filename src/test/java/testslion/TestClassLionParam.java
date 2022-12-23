@@ -12,7 +12,7 @@ import org.mockito.MockitoAnnotations;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
-public class TestHasMane {
+public class TestClassLionParam {
     @Parameterized.Parameter(0)
     public String sex;
 

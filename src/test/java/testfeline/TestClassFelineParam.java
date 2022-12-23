@@ -8,7 +8,7 @@ import org.junit.runners.Parameterized;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
-public class TestGetKittensParam {
+public class TestClassFelineParam {
 
     public int kittens;
 
@@ -16,7 +16,7 @@ public class TestGetKittensParam {
 
     Feline feline = new Feline();
 
-    public TestGetKittensParam(int kittens, int expectedKittens) {
+    public TestClassFelineParam(int kittens, int expectedKittens) {
         this.kittens = kittens;
         this.expectedKittens = expectedKittens;
     }
